@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListTableViewCell" rowHeight="155" id="KGk-i7-Jjw" customClass="ListTableViewCell" customModule="App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="154.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_restaurants_tmp-1" translatesAutoresizingMaskIntoConstraints="NO" id="pGU-AY-G8k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtG-mg-qZS">
+                        <rect key="frame" x="137" y="30" width="183" height="94"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kansar Gujarati Thali" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJy-P1-21a">
+                                <rect key="frame" x="8" y="8" width="167" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Bcb-1B-RzF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_res_navigation" translatesAutoresizingMaskIntoConstraints="NO" id="wIG-PY-a0W">
+                                <rect key="frame" x="8" y="31" width="9" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="d9h-d2-Rfe"/>
+                                    <constraint firstAttribute="width" constant="9" id="ktA-NU-fc8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3rd Floor, Shree KuberjiComplex, Athugar Street, Near Central Bank of India, Nanpura, Surat - 395001" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTi-HI-G0g">
+                                <rect key="frame" x="21" y="30" width="154" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="V9p-au-o9A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="9"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hck-gt-smK">
+                                <rect key="frame" x="8" y="72" width="57" height="16"/>
+                                <color key="backgroundColor" red="0.25046479700000002" green="0.47629928589999998" blue="0.1758356988" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="RqG-qs-rMk"/>
+                                    <constraint firstAttribute="height" constant="16" id="f4K-dn-end"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
+                                <state key="normal" title="5 Offers">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.59377750880281688" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mJy-P1-21a" firstAttribute="top" secondItem="jtG-mg-qZS" secondAttribute="top" constant="8" id="1ut-OJ-Efm"/>
+                            <constraint firstItem="Hck-gt-smK" firstAttribute="top" secondItem="HTi-HI-G0g" secondAttribute="bottom" constant="8" id="7G1-6t-7Un"/>
+                            <constraint firstItem="Hck-gt-smK" firstAttribute="leading" secondItem="jtG-mg-qZS" secondAttribute="leading" constant="8" id="BdS-jc-HdT"/>
+                            <constraint firstItem="HTi-HI-G0g" firstAttribute="leading" secondItem="wIG-PY-a0W" secondAttribute="trailing" constant="4" id="Glu-EP-Kh7"/>
+                            <constraint firstItem="mJy-P1-21a" firstAttribute="leading" secondItem="jtG-mg-qZS" secondAttribute="leading" constant="8" id="NIs-4c-9QQ"/>
+                            <constraint firstAttribute="trailing" secondItem="HTi-HI-G0g" secondAttribute="trailing" constant="8" id="RkN-RG-Q8C"/>
+                            <constraint firstAttribute="height" constant="94" id="VWx-Kl-rdV"/>
+                            <constraint firstAttribute="width" constant="183" id="Vm8-Lw-a3X"/>
+                            <constraint firstItem="wIG-PY-a0W" firstAttribute="leading" secondItem="jtG-mg-qZS" secondAttribute="leading" constant="8" id="cKn-MW-NMh"/>
+                            <constraint firstAttribute="trailing" secondItem="mJy-P1-21a" secondAttribute="trailing" constant="8" id="cvd-1R-aeh"/>
+                            <constraint firstItem="HTi-HI-G0g" firstAttribute="top" secondItem="mJy-P1-21a" secondAttribute="bottom" constant="1" id="e7L-O4-kko"/>
+                            <constraint firstItem="wIG-PY-a0W" firstAttribute="top" secondItem="mJy-P1-21a" secondAttribute="bottom" constant="2" id="ifP-97-3BS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="pGU-AY-G8k" secondAttribute="bottom" constant="5" id="A9l-1U-hXn"/>
+                    <constraint firstItem="jtG-mg-qZS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="E21-AQ-P9o"/>
+                    <constraint firstAttribute="trailing" secondItem="pGU-AY-G8k" secondAttribute="trailing" id="FRz-Ga-7ec"/>
+                    <constraint firstItem="pGU-AY-G8k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RE3-ce-xYh"/>
+                    <constraint firstAttribute="bottom" secondItem="pGU-AY-G8k" secondAttribute="bottom" constant="5" id="bOH-Ei-gEN"/>
+                    <constraint firstAttribute="trailing" secondItem="jtG-mg-qZS" secondAttribute="trailing" id="lCs-29-SBE"/>
+                    <constraint firstItem="pGU-AY-G8k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="oYR-fV-vfn"/>
+                    <constraint firstItem="pGU-AY-G8k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="p2N-eN-GHa"/>
+                    <constraint firstAttribute="trailing" secondItem="pGU-AY-G8k" secondAttribute="trailing" id="stg-pE-cTj"/>
+                    <constraint firstItem="pGU-AY-G8k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="y7W-er-RQr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnOffer" destination="Hck-gt-smK" id="ffe-Wh-GrW"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="109.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_res_navigation" width="26" height="35"/>
+        <image name="ic_restaurants_tmp-1" width="1080" height="494"/>
+    </resources>
+</document>
